@@ -1,0 +1,41 @@
+@import "fonts";
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+* {
+	font-family: "IRANSans", BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
+		Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+	box-sizing: border-box;
+	direction: rtl;
+	padding: 0;
+	margin: 0;
+}
+
+
+html,
+body {
+	background-color: #e9e9e9;
+	color: #0a0a0a;
+}
+
+a {
+	color: inherit;
+	text-decoration: none;
+}
+
+.ltr {
+	direction: ltr;
+}
+
+/* @media (prefers-color-scheme: dark) {
+	html {
+		color-scheme: dark;
+	}
+	body {
+		color: white;
+		background: black;
+	}
+} */
